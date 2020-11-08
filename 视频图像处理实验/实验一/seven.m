@@ -1,0 +1,9 @@
+a=imread('D:\学习笔记\视频大数据\高宇科-实验一\原图及视频\lena_color_256x256.jpg');
+subplot(1,2,1);
+imshow(a);
+title('原始图像');
+b=im2double(rgb2gray(a));
+b=log(b+1);
+subplot(1,2,2);
+imshow(b);
+title('非线性变换后图像');
