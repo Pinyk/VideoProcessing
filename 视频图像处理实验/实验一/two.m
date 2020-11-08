@@ -1,5 +1,5 @@
 %针对lena_256x256.bmp图像的直方图进行直方图均衡化，显示 “直方图均衡化后的效果图”和“均衡化后的直方图”。
-a = imread('C:\Users\DELL\Desktop\lena.bmp'); 
+a = imread('D:\学习笔记\视频大数据\高宇科-实验一\原图及视频\Lena_256x256.bmp'); 
 subplot(221);
 imhist(a)
 title('原图像直方图');
